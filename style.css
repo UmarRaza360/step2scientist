@@ -40,8 +40,11 @@
     font-size: medium;
   }
   .teamCard{
-    margin-left: -500px;
-    
+    margin-left: 00px;
+   /* position: absolute;  */
+  }
+  #teamCard1{
+    margin-left: -550px;
   }
 }
 #CHead{
