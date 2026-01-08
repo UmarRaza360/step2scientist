@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-light" >
+  <div class="container">
+
+    <!-- Logo + Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="s2s logo-Photoroom.png" alt="Bootstrap" width="50" height="50">
+      <span class="text-dark " id="NavPara">Step2Scientist</span>
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <!-- Centered Search Bar -->
+      <form class="d-flex mx-lg-auto my-2" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+      <!-- Links -->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item pe-2">
+          <a class="nav-link active text-dark" href="index.html">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-dark" href="course.html">Courses</a>
+        </li>
+      </ul>
+
+      <!-- Contact Button -->
+      <a href="contactUs.html" class="btn btn-primary ms-lg-3">Contact Us</a>
+
+    </div>
+  </div>
+</nav>
+
+
+<section>
+  <div class="container mt-3">
+    <h1 class="text-center fw-bold mb-4 pt-5">
+      Discover <span class="text-primary">Step2Scientist</span> IT Courses <br>
+      Designed to Build Future Tech Experts
+    </h1>
+    <p class="text-center text-muted mb-5">
+      Explore hands-on, industry-relevant IT courses that teach coding, networking, cybersecurity, and more to prepare students for tomorrow's tech world.
+    </p>
+
+    <!-- CENTERED SEARCH BAR -->
+    <form class="d-flex justify-content-center mb-5" role="search">
+      <input 
+        class="form-control me-2" 
+        type="search" 
+        placeholder="Search courses..." 
+        aria-label="Search"
+        style="max-width: 500px;"
+      >
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</section>
+<!--  -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">Our Courses</h2>
+    
+    <div class="row g-4">
+
+      <!-- Course Card 1 -->
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card h-100 shadow-sm">
+         <div class="img-wrapper">
+  <img src="advance programing.png" class="card-img-top course-card-img" alt="">
+</div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Python Advanced Programming </h5>
+            <p class="text-warning mb-2">
+              ★★★★☆ 4.5
+            </p>
+            <p class="card-text flex-grow-1">
+              Learn Python programming from scratch with practical exercises and real projects.Learn python and its libraries for software development, databases , datascience , Machine learning, Open Computer vision and much more
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$49</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 2 -->
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card h-100 shadow-sm">
+          <img src="app developer.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Mobile App Development Bootcamp</h5>
+            <p class="text-warning mb-2">★★★★☆ 4.7</p>
+            <p class="card-text flex-grow-1">
+              Build responsive cross platform mobile apps with flutter that are available on Android and Apple devices. Get a chance to learn Flutter,  and modern frameworks.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$69</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 3 -->
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card h-100 shadow-sm">
+          <img src="ccnp.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Cisco Certified Networking Administration</h5>
+            <p class="text-warning mb-2">★★★★☆ 4.6</p>
+            <p class="card-text flex-grow-1">
+              Understand the fundamentals of networking with hands on experience with our latest cisco certified instructors and Networking labs . Get a chance to appear in the internation cisco certified network admin Exam and avail internation certificates.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$59</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 4 -->
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card h-100 shadow-sm">
+          <img src="database.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Database Developer</h5>
+            <p class="text-warning mb-2">★★★★☆ 4.8</p>
+            <p class="card-text flex-grow-1">
+              Learn Database Development in Softwares like Oracle , Postgresql, Apex and languages like SQL, MongoDB, Hive DB and Firebase. With our experts having 16 Years of Professional Industry level experience and Also get a chance to avail internation certificate with an opportunity for Internship.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$79</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2nd row -->
+       
+       <!-- Course Card 5 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+        <div class="card h-100 shadow-sm">
+          <img src="database administration.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Database Administration</h5>
+            <p class="text-warning mb-2">
+              ★★★★☆ 4.5
+            </p>
+            <p class="card-text flex-grow-1">
+              Got your hands cleaned on Database Development? Lets dive into database Administration where you get a chance to learn and master administration of databases and work in an environment of professionals to know how to handle large queries , backup databases, Protect your systems and Much more. 
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$49</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 6 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+        <div class="card h-100 shadow-sm">
+          <img src="dit.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Diploma in Information Technology</h5>
+            <p class="text-warning mb-2">★★★★☆ 4.7</p>
+            <p class="card-text flex-grow-1">
+              New to the World of computer science but still want to get to know all of it in a single year? Here is your chance to avail a diploma and certification in Information technology from KP Technical Board. Learn not only the basics of Computer Science but also advance languages and every thing you need to know about computer.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$69</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 7 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+        <div class="card h-100 shadow-sm">
+         <img src="full stack web dev.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Cybersecurity Essentials</h5>
+            <p class="text-warning mb-2">★★★★☆ 4.6</p>
+            <p class="card-text flex-grow-1">
+              Understand the fundamentals of cybersecurity and how to protect digital systems.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$59</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 8 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+        <div class="card h-100 shadow-sm">
+          <img src="graphic designing.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Data Science with Python</h5>
+            <p class="text-warning mb-2">★★★★☆ 4.8</p>
+            <p class="card-text flex-grow-1">
+              Master data analysis, visualization, and machine learning using Python tools.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$79</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- 3rd row -->
+       
+       <!-- Course Card 9 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+        <div class="card h-100 shadow-sm">
+          <img src="mcse.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Introduction to Python</h5>
+            <p class="text-warning mb-2">
+              ★★★★☆ 4.5
+            </p>
+            <p class="card-text flex-grow-1">
+              Learn Python programming from scratch with practical exercises and real projects.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$49</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 10 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+        <div class="card h-100 shadow-sm">
+          <img src="office.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Web Development Bootcamp</h5>
+            <p class="text-warning mb-2">★★★★☆ 4.7</p>
+            <p class="card-text flex-grow-1">
+              Build responsive websites and learn HTML, CSS, JavaScript, and modern frameworks.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$69</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 11 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+        <div class="card h-100 shadow-sm">
+         <img src="software developer.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Cybersecurity Essentials</h5>
+            <p class="text-warning mb-2">★★★★☆ 4.6</p>
+            <p class="card-text flex-grow-1">
+              Understand the fundamentals of cybersecurity and how to protect digital systems.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$59</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 12 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+        <div class="card h-100 shadow-sm">
+          <img src="video editing.png" class="card-img-top course-card-img" alt="Course 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Data Science with Python</h5>
+            <p class="text-warning mb-2">★★★★☆ 4.8</p>
+            <p class="card-text flex-grow-1">
+              Master data analysis, visualization, and machine learning using Python tools.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="fw-bold">$79</span>
+              <a href="checkout.html" class="btn btn-primary btn-sm">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<br><br><br>
+<!--  -->
+<footer class=" text-dark pt-5 pb-4 bg-light" >
+  <div class="container text-center text-md-start">
+    <div class="row">
+      
+      <!-- Column 1 -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h5 class="text-uppercase fw-bold mb-4">Step2Scientist</h5>
+        <p>Step2Scientist is an information technology company that provides tranings, Software  Solutions, Internships & Employment  opportunities in Organizations.</p>
+      </div>
+
+      <!-- Column 2 -->
+       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Courses</h6>
+        <p><a href="course.html" class="text-dark text-decoration-none">Social Media Marketing</a></p>
+        <p><a href="course.html" class="text-dark text-decoration-none">Database Development & Administration</a></p>
+        <p><a href="course.html" class="text-dark text-decoration-none">Network & System Administration</a></p>
+        <p><a href="course.html" class="text-dark text-decoration-none">AI & DataScience</a></p>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Useful Links</h6>
+        <p><a href="index.html" class="text-dark text-decoration-none">About Us</a></p>
+        <p><a href="contactUs.html" class="text-dark text-decoration-none">Contact</a></p>
+        <p><a href="index.html" class="text-dark text-decoration-none">Privacy Policy</a></p>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+        <p><i class="bi bi-house-door-fill me-2"></i> Peshawar, Pakistan</p>
+        <p><i class="bi bi-envelope-fill me-2"></i> www.Step2Scientist.com</p>
+        <p><i class="bi bi-telephone-fill me-2"></i> +92 313 9999749</p>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+<div class="text-center p-3 border-top text-light border-light mt-0 bg-dark">
+  © 2025 Step2Scientist | All Rights Reserved
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

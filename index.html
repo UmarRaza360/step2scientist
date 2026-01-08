@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-light" >
+  <div class="container">
+
+    <!-- Logo + Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="s2s logo-Photoroom.png" alt="Bootstrap" width="50" height="50">
+      <span class="text-dark " id="NavPara">Step2Scientist</span>
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <!-- Centered Search Bar -->
+      <form class="d-flex mx-lg-auto my-2" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+      <!-- Links -->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item pe-2">
+          <a class="nav-link active text-dark" href="index.html">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-dark" href="course.html">Courses</a>
+        </li>
+      </ul>
+
+      <!-- Contact Button -->
+      <a href="contactUs.html" class="btn btn-primary ms-lg-3">Contact Us</a>
+    </div>
+  </div>
+</nav>
+
+
+  <!--  -->
+  <main>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <!--  -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center">
+            <!--  -->
+               <h1 class="carousel-heading">Learn a New Skill Everyday, Anytime, and Anywhere.</h1>
+            <p class="carousel-text">
+              Power up your AI, career, and life skills with the <br>
+              most up-to-date, expert-led learning.
+            </p>
+            <a href="course.html" class="btn btn-success mt-3 me-2">Get Started</a>
+            <button class="btn btn-outline-primary mt-3">Learn AI</button>
+          </div>
+          <!--  -->
+          <div class="col-md-6 text-dark">
+             <img 
+              src="Boy attending online classes - 1280x958 1.png" 
+              class="img-fluid imgSlider" 
+              alt="Online classes image">
+          </div>
+
+        </div>
+      </div>
+    </div>
+<!--  -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center">
+            <img 
+              src="Group 1.png" 
+              class="img-fluid imgSliDer" 
+              alt="">
+          </div>
+          <div class="col-md-6 text-dark">
+            <h1 class="carousel-heading">Learn Without Limits</h1>
+            <p class="carousel-text">
+              Explore new skills with our expert-led programs and advance your future.
+            </p>
+            <button class="btn btn-primary mt-3 me-2">Explore</button>
+            <button class="btn btn-outline-primary mt-3">Join Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div><br><br><br>
+<!--  -->
+<!--  -->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <!-- SLIDE 1 -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <h1 id="CHead" class="pt-3">Learn essential career and life skills</h1>
+            <p>Step 2 Scientist helps you build in-demand skills fast and advance your career in a changing job market.</p>
+          </div>
+<div class="col-md-3">
+  <div class="image-wrapper position-relative w-100"
+       style="border-radius: 12px; overflow: hidden;">
+       
+    <img src="image.png" class="img-fluid w-100" alt="...">
+
+    <div class="overlay-text bg-dark bg-opacity-75 text-light px-2 py-1 position-absolute bottom-0 start-0 end-0">
+      <p class="pt-2 ps-2 mb-1">Social Media Marketing</p>
+      <div class="btn text-light btn-primary btn-sm ms-2 mb-2">
+        Learn More
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+          <div class="col-md-3">
+  <div class="image-wrapper position-relative d-inline-block w-100"
+       style="border-radius: 12px; overflow: hidden;">
+
+    <img src="image copy.png" class="img-fluid img1" alt="...">
+
+    <div class="overlay-text bg-dark bg-opacity-75 text-light px-2 py-1
+                position-absolute bottom-0 start-0 end-0">
+      <p class="pt-2 ps-2 mb-1">
+        Database Development & Administration
+      </p>
+      <div class="btn text-light btn-primary btn-sm ms-2 mb-2">
+        Learn More
+      </div>
+    </div>
+
+  </div>
+</div>
+
+          
+
+          <div class="col-md-3 position-relative">
+            <div class="image-wrapper position-relative d-inline-block w-100" style="border-radius: 12px; overflow: hidden;">
+              <img src="image copy 2.png" class="img-fluid img2" alt="...">
+              <div class="overlay-text bg-dark bg-opacity-75 text-light px-2 py-1 position-absolute bottom-0 start-0 end-0">
+                <p class="pt-2 ps-2">    Network & System Administration</p>
+                <div class="btn text-light btn-primary btn-sm ms-2" style="margin-top: -20px;">Learn More</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-md-3 position-relative">
+            <div class="image-wrapper position-relative d-inline-block w-100" style="border-radius: 12px; overflow: hidden;">
+              <img src="image copy 3.png" class="img-fluid img3" alt="...">
+              <div class="overlay-text bg-dark bg-opacity-75 text-light px-2 py-1 position-absolute bottom-0 start-0 end-0">
+                <p class="pt-2 ps-2">AI & Data Science</p>
+                <div class="btn text-light btn-primary btn-sm ms-2" style="margin-top: -20px;">Learn More</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 position-relative">
+            <div class="image-wrapper position-relative d-inline-block w-100" style="border-radius: 12px; overflow: hidden;">
+              <img src="image copy 4.png" class="img-fluid img4" alt="...">
+              <div class="overlay-text bg-dark bg-opacity-75 text-light px-2 py-1 position-absolute bottom-0 start-0 end-0">
+                <p class="pt-2 ps-2">Full Stack Development</p>
+                <div class="btn text-light btn-primary btn-sm ms-2" style="margin-top: -20px;">Learn More</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 position-relative">
+            <div class="image-wrapper position-relative d-inline-block w-100" style="border-radius: 12px; overflow: hidden;">
+              <img src="image copy 5.png" class="img-fluid img4" alt="...">
+              <div class="overlay-text bg-dark bg-opacity-75 text-light px-2 py-1 position-absolute bottom-0 start-0 end-0">
+                <p class="pt-2 ps-2">Cyber Security</p>
+                <div class="btn text-light btn-primary btn-sm ms-2" style="margin-top: -20px;">Learn More</div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col-md-3 position-relative">
+            <div class="image-wrapper position-relative d-inline-block w-100" style="border-radius: 12px; overflow: hidden;">
+              <img src="image copy 6.png" class="img-fluid img4" alt="...">
+              <div class="overlay-text bg-dark bg-opacity-75 text-light px-2 py-1 position-absolute bottom-0 start-0 end-0">
+                <p class="pt-2 ps-2">Mobile App Development</p>
+                <div class="btn text-light btn-primary btn-sm ms-2" style="margin-top: -20px;">Learn More</div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div><br><br><br>
+<!--  -->
+<!-- FULL WIDTH BACKGROUND -->
+<div class="py-5" id="why-choose-bg">
+  
+  <!-- CENTERED CONTENT -->
+  <div class="container">
+    
+    <h3 class="text-center mb-4">Our Mission & Vision</h3>
+
+    <div class="row g-4 text-center">
+
+      <div class="col-md-4 col-sm-12">
+        <img src="mission.png" class="img-fluid mb-3" style="max-height:150px;">
+        <p>
+          To provide accessible, practical, and industry-relevant learning and
+          technology services that prepare the next generation for a fast-evolving digital world.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+        <img src="vision.png" class="img-fluid mb-3" style="max-height:150px;">
+        <p>
+          To provide accessible, practical, and industry-relevant learning and
+          technology services that prepare the next generation for a fast-evolving digital world.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-12 text-center">
+        <img src="values.png" class="img-fluid mb-3 d-block mx-auto" style="max-height:150px;">
+       <p>Our values center on integrity, quality, innovation, empowerment, and collaboration—guiding us to deliver excellence, inspire growth, and succeed together.</p>
+    </div>
+  </div>
+</div>
+</div>
+<br><br><br>
+<!--  -->
+<div class="container">
+  <h3 class="text-center">Our Team</h3>
+  <p class="text-center mt-3">A team of skilled professionals in:</p>
+  <div class="row text-center ps-5">
+    <div class="card col-md-3 col-sm-12  ms-5" style="width: 18rem;">
+  <img src="teacher.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Name</h5>
+    <p class="card-text">Database Development & Administration</p>
+  </div>
+</div>
+     <div class="card col-md-3 col-sm-12 ms-5" style="width: 18rem;">
+  <img src="teacher.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Name</h5>
+    <p class="card-text">Network & System Administration</p>
+  </div>
+</div>
+     <div class="card col-md-3 col-sm-12 ms-5" style="width: 18rem;">
+  <img src="teacher.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Name</h5>
+    <p class="card-text">Cyber Security & Linux</p>
+  </div>
+</div>
+    <div class="card col-md-3 col-sm-12 mt-4 teamCard" style="width: 18rem; margin-left: 190px;" >
+  <img src="teacher.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Name</h5>
+    <p class="card-text">Webite Development</p>
+  </div>
+</div>
+ <div class="card col-md-3 col-sm-12 mt-4 ms-5" style="width: 18rem;">
+  <img src="teacher.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   <h5 class="card-title">Name</h5>
+    <p class="card-text">Graphic Design & UI/UX</p>
+  </div>
+</div>
+  </div>
+</div>
+<!--  -->
+<br><br><br>
+<div class="why-choose-bg py-5">
+  <div class="container">
+    
+    <h3 class="text-center mb-5">Why Choose Step2Scientist</h3>
+
+    <div class="row g-4 align-items-stretch">
+
+      <!-- LEFT SIDE: CARDS -->
+      <div class="col-lg-8">
+        
+        <div class="d-flex flex-column gap-4 h-100">
+
+          <div class="card text-center border-0 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-mortarboard display-6 text-primary mb-2"></i>
+              <h6 class="fw-bold">Industry-Experienced Trainers</h6>
+            </div>
+          </div>
+
+          <div class="card text-center border-0 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-lightbulb display-6 text-primary mb-2"></i>
+              <h6 class="fw-bold">Modern Curriculum</h6>
+            </div>
+          </div>
+
+          <div class="card text-center border-0 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-graph-up display-6 text-primary mb-2"></i>
+              <h6 class="fw-bold">Practical, Hands-On Learning</h6>
+            </div>
+          </div>
+
+          <div class="card text-center border-0 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-person-check display-6 text-primary mb-2"></i>
+              <h6 class="fw-bold">Strong Portfolio in IT & Design</h6>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE: IMAGE CARD -->
+      <div class="col-lg-4">
+        <div class="card h-100 border-0 shadow-sm image-card-tall">
+          <img 
+            src="image copy 8.png" 
+            alt="Why Choose Us" 
+            class="img-fluid h-100 w-100 object-fit-cover rounded"
+          >
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--  -->
+<footer class=" text-dark pt-5 pb-4 bg-light" >
+  <div class="container text-center text-md-start">
+    <div class="row">
+      
+      <!-- Column 1 -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h5 class="text-uppercase fw-bold mb-4">Step2Scientist</h5>
+        <p>Step2Scientist is an information technology company that provides tranings, Software  Solutions, Internships & Employment  opportunities in Organizations.</p>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Courses</h6>
+        <p><a href="course.html" class="text-dark text-decoration-none">Social Media Marketing</a></p>
+        <p><a href="course.html" class="text-dark text-decoration-none">Database Development & Administration</a></p>
+        <p><a href="course.html" class="text-dark text-decoration-none">Network & System Administration</a></p>
+        <p><a href="course.html" class="text-dark text-decoration-none">AI & DataScience</a></p>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Useful Links</h6>
+        <p><a href="index.html" class="text-dark text-decoration-none">About Us</a></p>
+        <p><a href="contactUs.html" class="text-dark text-decoration-none">Contact</a></p>
+        <p><a href="index.html" class="text-dark text-decoration-none">Privacy Policy</a></p>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+        <p><i class="bi bi-house-door-fill me-2"></i> Peshawar, Pakistan</p>
+        <p><i class="bi bi-envelope-fill me-2"></i> www.Step2Scientist.com</p>
+        <p><i class="bi bi-telephone-fill me-2"></i> +92 313 9999749</p>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+<div class="text-center p-3 border-top text-light border-light mt-0 bg-dark">
+  © 2025 Step2Scientist | All Rights Reserved
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+ 

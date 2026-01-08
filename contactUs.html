@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-light" >
+  <div class="container">
+
+    <!-- Logo + Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="s2s logo-Photoroom.png" alt="Bootstrap" width="50" height="50">
+      <span class="text-dark " id="NavPara">Step2Scientist</span>
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <!-- Centered Search Bar -->
+      <form class="d-flex mx-lg-auto my-2" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+      <!-- Links -->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item pe-2">
+          <a class="nav-link active text-dark" href="index.html">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-dark" href="course.html">Courses</a>
+        </li>
+      </ul>
+
+      <!-- Contact Button -->
+            <a href="contactUs.html" class="btn btn-primary ms-lg-3">Contact Us</a>
+
+    </div>
+  </div>
+</nav>
+
+<section class="py-5 bg-light">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Contact Us</h2>
+      <p class="text-muted">
+        Have questions about our IT courses? Our team is ready to guide you.
+      </p>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="bg-white p-4 rounded shadow-sm h-100">
+          <h4 class="fw-bold mb-4">Get in Touch</h4>
+
+          <div class="d-flex mb-4">
+            <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width:40px;height:40px;">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-1">Address</h6>
+              <p class="text-muted mb-0">
+                Step2Scientist IT Training Center,<br> Main Campus, Peshawar
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex mb-4">
+            <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width:40px;height:40px;">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-1">Phone</h6>
+              <p class="text-muted mb-0">+92 313 9999749</p>
+            </div>
+          </div>
+
+          <div class="d-flex mb-4">
+            <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width:40px;height:40px;">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-1">Email</h6>
+              <p class="text-muted mb-0">info@step2scientist.com</p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width:40px;height:40px;">
+              <i class="bi bi-clock-fill"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-1">Working Hours</h6>
+              <p class="text-muted mb-0">Mon – Sat | 9:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="bg-white p-4 rounded shadow-sm h-100">
+          <h4 class="fw-bold mb-4">Send Us a Message</h4>
+
+          <form>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <div class="col-12 text-end">
+                <button type="submit" class="btn btn-primary px-4">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
+<footer class=" text-dark pt-5 pb-4 bg-light" >
+  <div class="container text-center text-md-start">
+    <div class="row">
+      
+      <!-- Column 1 -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h5 class="text-uppercase fw-bold mb-4">Step2Scientist</h5>
+        <p>Step2Scientist is an information technology company that provides tranings, Software  Solutions, Internships & Employment  opportunities in Organizations.</p>
+      </div>
+
+      <!-- Column 2 -->
+       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Courses</h6>
+        <p><a href="course.html" class="text-dark text-decoration-none">Social Media Marketing</a></p>
+        <p><a href="course.html" class="text-dark text-decoration-none">Database Development & Administration</a></p>
+        <p><a href="course.html" class="text-dark text-decoration-none">Network & System Administration</a></p>
+        <p><a href="course.html" class="text-dark text-decoration-none">AI & DataScience</a></p>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Useful Links</h6>
+        <p><a href="index.html" class="text-dark text-decoration-none">About Us</a></p>
+        <p><a href="contactUs.html" class="text-dark text-decoration-none">Contact</a></p>
+        <p><a href="index.html" class="text-dark text-decoration-none">Privacy Policy</a></p>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+        <p><i class="bi bi-house-door-fill me-2"></i> Peshawar, Pakistan</p>
+        <p><i class="bi bi-envelope-fill me-2"></i> www.Step2Scientist.com</p>
+        <p><i class="bi bi-telephone-fill me-2"></i> +92 313 9999749</p>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+<div class="text-center p-3 border-top text-light border-light mt-0 bg-dark">
+  © 2025 Step2Scientist | All Rights Reserved
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
